@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #6366F1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #b3e900f4;
+    background-image: linear-gradient(160deg, #8ce898c6 0%, #80D0C7 100%);
+}
+
+.navbar {
+    text-align: center;
+    background-color: rgba(237, 238, 149, 0.973);
+    padding: 1rem 0;
+}
+
+#heading {
+    font-size: 3.5rem;
+    color: rgba(15, 29, 223, 0.925);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.3rem;
+    margin-top: 54px;
+}
+
+.img {
+    height: 220px;
+    width: 224px;
+    border: 0.2rem solid rgba(175, 51, 51, 0.325);
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.scorecard {
+    gap: 3.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.opt {
+    display: flex;
+    gap: 10.5rem;
+    margin-top: 3.4rem;
+    font-size: 1.6rem;
+}
+
+.score {
+    font-size: 3.2rem;
+}
+
+.result {
+    padding: 1.1rem;
+    border-radius: 23rem;
+    font-size: 2.3rem;
+    border: solid 0.2rem;
+    background-color: blanchedalmond;
+    text-align: center;
+    transition: background-color 0.3s;
+}
