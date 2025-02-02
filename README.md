@@ -48,6 +48,5 @@ You can play the game by opening `index.html` in any modern web browser.
 ## Contributing
 Feel free to fork the repository and submit pull requests with improvements or new features.
 
-## License
-This project is licensed under the MIT License.
+
 
